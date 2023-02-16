@@ -7,12 +7,6 @@ from AppKit import NSScreen
 # Constants
 NUM_TRIALS = 1
 
-# Window constants
-WINDOW_OFFSET = 50
-WINDOW_WIDTH = NSScreen.mainScreen().frame().size.width
-WINDOW_HEIGHT = NSScreen.mainScreen().frame().size.height
-WINDOW_SIZE = min(WINDOW_HEIGHT, WINDOW_WIDTH) - WINDOW_OFFSET
-
 # time to wait = MIN_TIME_TO_WAIT + COEFF_TIME_TO_WAIT * ContinuousUniform([0,1])
 MIN_TIME_TO_WAIT = 1
 COEFF_TIME_TO_WAIT = 2
